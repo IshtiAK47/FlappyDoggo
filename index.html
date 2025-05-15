@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Doggo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="game-container">
+      <div id="game-bg"></div>
+      <div id="sun-moon"></div>
+      <div id="bird"></div>
+      <div id="ground"></div>
+      <div id="score">0</div>
+      <div id="start-screen">
+        <h2>Flappy Doggo</h2>
+        <p>Enter your name:</p>
+        <input
+          type="text"
+          id="player-name"
+          placeholder="Your name"
+          maxlength="20"
+        />
+        <button id="start-btn">Start Game</button>
+      </div>
+      <div id="game-over">
+        <h2>Game Over!</h2>
+        <p>Your score: <span id="final-score">0</span></p>
+        <div id="leaderboard">
+          <h3>Leaderboard</h3>
+          <ul id="leaderboard-list"></ul>
+        </div>
+        <button id="restart-btn">Play Again</button>
+        <button id="change-name-btn">Change Name</button>
+      </div>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="bg-music" loop>
+      <source src="assets/sounds/background.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="jump-sound">
+      <source src="assets/sounds/jump.wav" type="audio/mpeg" />
+    </audio>
+    <audio id="score-sound">
+      <source src="assets/sounds/score.wav" type="audio/mpeg" />
+    </audio>
+    <audio id="crash-sound">
+      <source src="assets/sounds/crash.wav" type="audio/mpeg" />
+    </audio>
+
+    <script src="main.js"></script>
+  </body>
+</html>
