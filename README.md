@@ -65,7 +65,7 @@ Want to personalize your game? You can:
 
 ## Credits 🙏
 
-Game developed by [Your Name].  
+Game developed by a mythical creature,who doesn't exists.  
 Inspired by Flappy Bird.
 
 ## License 📜
