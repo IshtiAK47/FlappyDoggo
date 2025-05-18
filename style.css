@@ -18,7 +18,7 @@ body {
 #game-container {
     position: relative;
     width: 400px;
-    height: 600px;
+    height: 700px;
     overflow: hidden;
     border: 3px solid #333;
     border-radius: 10px;
