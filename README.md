@@ -65,7 +65,7 @@ Want to personalize your game? You can:
 
 ## Credits 🙏
 
-Game developed by a friend of mine,I barely did anything.  
+ 
 Inspired by Flappy Bird.
 
 ## License 📜
